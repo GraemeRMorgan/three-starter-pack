@@ -1,0 +1,47 @@
+html,
+body,
+#root
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: ivory;
+    font-family: Recursive;
+    color: var(--secondary-color);
+    font-variation-settings:
+    "MONO" 0.5,
+    "CASL" 0.7,
+    "wght" 700,
+    "wdth" 125,
+    "slnt" -5,
+    "CRSV" 0;
+}
+
+:root{
+    --primary-color: hsla(0, 0%, 4%, 1);
+    --secondary-color: hsla(350, 0%, 89%, 1);
+    --highlight-color: hsla(105, 55%, 70%, 1);
+}
+
+::selection {
+    background: var(--highlight-color); /* Light red background */
+    color: var(--primary-color); /* Black text color */
+  }
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: flex;
+    border-radius: 6px;
+    user-select: none;
+    cursor:cursor;
+    padding-left: 16px;
+}
+
+@font-face {
+    font-family: 'Recursive';
+    src: url('./Assets/Fonts/Recursive.woff2') format('woff2');
+    
+  }

@@ -1,0 +1,58 @@
+
+
+.header {
+    font-family: Recursive;
+    font-variation-settings:
+    "MONO" 0.5,
+    "CASL" 0.7,
+    "wght" 700,
+    "wdth" 125,
+    "slnt" -5,
+    "CRSV" 0;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px 20px;
+  }
+  
+  .header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
+  
+  .header .nav {
+    display: flex;
+  }
+  
+  .header .nav button {
+    font-family: Recursive;
+
+    border: 2px solid var(--secondary-color);
+    border-radius: 12px;
+    padding: 12px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    margin-left: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    user-select: none;
+    background-color: var(--primary-color);
+    font-variation-settings:
+    "MONO" 0.5,
+    "CASL" 0.7,
+    "wght" 700,
+    "wdth" 125,
+    "slnt" -5,
+    "CRSV" 0;
+  }
+  
+  /* Additional styling for hover effect */
+  .header .nav button:hover {
+    color: var(--highlight-color);
+    border: 2px solid var(--highlight-color)
+  }
