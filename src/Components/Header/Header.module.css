@@ -4,10 +4,10 @@
     font-family: Recursive;
     font-variation-settings:
     "MONO" 0.5,
-    "CASL" 0.7,
-    "wght" 700,
+    "CASL" 0,
+    "wght" 400,
     "wdth" 125,
-    "slnt" -5,
+    "slnt" 0,
     "CRSV" 0;
     font-weight: 100;
     display: flex;
@@ -44,10 +44,10 @@
     background-color: var(--primary-color);
     font-variation-settings:
     "MONO" 0.5,
-    "CASL" 0.7,
-    "wght" 700,
+    "CASL" 0,
+    "wght" 400,
     "wdth" 125,
-    "slnt" -5,
+    "slnt" 0,
     "CRSV" 0;
   }
   
